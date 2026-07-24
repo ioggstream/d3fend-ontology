@@ -1012,6 +1012,10 @@ Moving forward different distinctions of kinds of has-part (contains) relationsh
     rdfs:isDefinedBy <http://wordnet-rdf.princeton.edu/id/00234091-v> ;
     :definition "x restricts y: An entity x bounds the use of entity y." .
 
+:restores a owl:ObjectProperty ;
+    rdfs:label "restores" ;
+    rdfs:subPropertyOf :d3fend-tactical-verb-property .
+
 :runs a owl:ObjectProperty ;
     rdfs:label "runs" ;
     rdfs:subPropertyOf :associated-with,
